@@ -94,7 +94,7 @@ if ($firstname === '') :
     
   );
 
-  date_default_timezone_set('US/Eastern');
+  date_default_timezone_set('Helsinki/Finland');
   $currtime = time();
   $datefordb = date('Y-m-d H:i:s', $currtime);
   $salty = dechex($currtime).$mypassword;
